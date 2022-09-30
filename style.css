@@ -90,12 +90,16 @@ p {
 .screen-shot {
   display: none;
 }
+h1 {
+  font-size: 60px;
+}
 
 @media (min-width: 414px) {
   .screen-shot {
     display: block;
   }
-  body {
-    background-color: #6c63ff;
+
+  h1 {
+    font-size: 96px;
   }
 }
